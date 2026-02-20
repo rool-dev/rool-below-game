@@ -1,0 +1,27 @@
+{
+  "name": "rool-below-game",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit && svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@humanspeak/svelte-markdown": "^0.8.17",
+    "@iconify/svelte": "^5.2.1",
+    "@rool-dev/svelte": "^0.1.12"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
+    "@tailwindcss/vite": "^4.2.0",
+    "@typescript-eslint/types": "^8.56.0",
+    "svelte": "^5.53.0",
+    "svelte-check": "^4.4.1",
+    "tailwindcss": "^4.2.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}
